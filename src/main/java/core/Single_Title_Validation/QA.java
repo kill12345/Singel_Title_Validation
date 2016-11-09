@@ -10,7 +10,7 @@ public class QA {
     public static void main (String[] args){
     WebDriver driver = (WebDriver) new FirefoxDriver();
 
-    String url = "http://www.learn2test.net";
+    String url = "http://www.ua.net";
     String title_expected = "learn2test.net";
     driver.get(url);
     driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
